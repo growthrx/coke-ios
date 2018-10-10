@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.timesinternet.in"
   s.license          = { :type => "Times Internet Limited", :file => "LICENSE" }
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
-  s.source           = { :http => 'https://drive.google.com/open?id=1Ecb1gksH0QcBuKF_7W2Uc2ht5l4mxNrF', :tag => s.version.to_s }
+  s.source           = { :http => 'https://www.gstatic.com/cpdc/5cd71dd2f756bb01/GoogleAnalytics-3.17.0.tar.gz' }
 
   s.ios.deployment_target = '9.0'
 
