@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.vendored_frameworks = 'GoogleAnalytics.framework'
 
-  s.source_files = 'Sources/*.h'
+  s.source_files = 'https://www.gstatic.com/cpdc/5cd71dd2f756bb01/GoogleAnalytics-3.17.0.tar.gz'
 
 #s.public_header_files = 'Coke/Classes/**/Public/*.h'
 
