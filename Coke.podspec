@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.ios.vendored_frameworks = 'Coke.framework'
+  s.ios.vendored_frameworks = 'GoogleAnalytics.framework'
 
-  s.source_files = 'Headers/*.h'
+  s.source_files = 'Sources/*.h'
 
-  s.public_header_files = 'Coke/Classes/**/Public/*.h'
+#s.public_header_files = 'Coke/Classes/**/Public/*.h'
 
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
 
