@@ -1,41 +1,29 @@
 {
-    "name": "GoogleAnalytics",
-    "version": "3.17.0",
-    "summary": "Google Analytics - measure your app performance",
-    "description": "Google Analytics lets you track application events you care about and gain insights from discovery and installation to conversion and engagement.",
-    "homepage": "https://www.google.com/analytics",
+    "name": "Coke",
+    "version": "2.1.8",
+    "summary": "Coke in analytics tool that records the specific acitvty and data.",
+    "description": "Coke is analytics tool that record the specefic activty and data. This is internal to TIL",
+    "homepage": "http://www.timesinternet.in",
     "license": {
-        "text": "Copyright 2016 Google",
+        "text": "Times Internet Limited",
         "type": "Copyright"
     },
-    "authors": "Google, Inc.",
+    "authors": "Times Internet Limited",
     "platforms": {
-        "ios": "5.0"
+        "ios": "9.0"
     },
     "source": {
-        "http": "https://www.gstatic.com/cpdc/5cd71dd2f756bb01/GoogleAnalytics-3.17.0.tar.gz"
+        "http": "https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip"
     },
-    "vendored_libraries": [
-        "Libraries/libGoogleAnalytics.a"
-    ],
     "source_files": [
-        "Sources/GAI.h",
-        "Sources/GAIDictionaryBuilder.h",
-        "Sources/GAIEcommerceFields.h",
-        "Sources/GAIEcommerceProduct.h",
-        "Sources/GAIEcommerceProductAction.h",
-        "Sources/GAIEcommercePromotion.h",
-        "Sources/GAIFields.h",
-        "Sources/GAILogger.h",
-        "Sources/GAITrackedViewController.h",
-        "Sources/GAITracker.h"
+        "Headers/Coke.h",
+        "Headers/RegistrationClass.h"
     ],
     "frameworks": [
-        "CoreData",
+        "UIKit",
+        "Foundation",
+        "CoreTelephony",
+        "AdSupport",
         "SystemConfiguration"
-    ],
-    "libraries": [
-        "z",
-        "sqlite3"
     ]
 }
