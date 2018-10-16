@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.timesinternet.in"
   s.license          = { :type => "Times Internet Limited", :file => "LICENSE" }
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
-  s.source           = { :git => "https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip", :tag => s.version.to_s }
+  s.source           = { :git => "https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip", :tag => s.version.to_s , :commit => "fbaeaef529a193eafc7f26233831a1fa5a92b0b7"}
+
 
   s.ios.deployment_target = '9.0'
 
