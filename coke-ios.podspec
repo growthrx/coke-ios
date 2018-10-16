@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'coke-ios'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of coke-ios.'
+  s.summary          = 'coke in analytics tool that records the specific acitvty and data.'
+  s.description      = 'coke is analytics tool that record the specefic activty and data. This is internal to TIL'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +18,6 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'http://www.timesinternet.in'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,7 +30,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Coke.framework/Headers/*.h'
-  s.module_name = 'Coke.framework/Modules/*'
+  #s.module_name = 'Coke.framework/Modules/*'
 
   s.ios.vendored_frameworks = 'Coke.framework'
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
