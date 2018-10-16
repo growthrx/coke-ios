@@ -1,0 +1,16 @@
+PODS:
+  - coke-ios (0.0.1)
+
+DEPENDENCIES:
+  - coke-ios (from `../`)
+
+EXTERNAL SOURCES:
+  coke-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  coke-ios: 33c61e9888ef9b32b00beb2337d7d2ac42ac7c6e
+
+PODFILE CHECKSUM: 6bb07060480bc929fae04555aafdaacd48586dbc
+
+COCOAPODS: 1.5.3

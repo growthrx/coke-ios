@@ -1,0 +1,6 @@
+framework module coke_ios {
+  umbrella header "coke-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
