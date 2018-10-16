@@ -15,14 +15,14 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.timesinternet.in"
   s.license          = { :type => "Times Internet Limited", :file => "LICENSE" }
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
-  s.source           = { :http => 'https://www.gstatic.com/cpdc/5cd71dd2f756bb01/GoogleAnalytics-3.17.0.tar.gz' }
+  s.source           = { :http => 'https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip' }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Sources/*.h'
-  s.ios.vendored_libraries = 'Libraries/libGoogleAnalytics.a'
+#s.ios.vendored_libraries = 'Libraries/libGoogleAnalytics.a'
 
-#s.public_header_files = 'Coke/Classes/**/Public/*.h'
+    #s.public_header_files = 'Coke/Classes/**/Public/*.h'
 
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
 
