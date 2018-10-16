@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.timesinternet.in"
   s.license          = { :type => "Times Internet Limited", :file => "LICENSE" }
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
-  s.source           = { :git => "https://github.com/growthrx/coke-ios/releases/download/0.0.1/Coke.zip"}
+  s.source           = { :git => "https://github.com/growthrx/coke-ios.git", :tag => s.version.to_s }
 
 
   s.ios.deployment_target = '9.0'
