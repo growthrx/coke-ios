@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
   s.source           = { :git => "https://github.com/growthrx/coke-ios.git", :tag => s.version.to_s }
 
-
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Coke.framework/Headers/*.h'
