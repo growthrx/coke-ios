@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Growthrx'
+  s.name             = 'Coke'
   s.version          = '0.0.1'
   s.summary          = 'Growthrx in analytics tool that records the specific acitvty and data.'
   s.description      = "Growthrx is analytics tool that record the specefic activty and data. This is internal to TIL"
