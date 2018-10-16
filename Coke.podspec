@@ -15,13 +15,13 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.timesinternet.in"
   s.license          = { :type => "Times Internet Limited", :file => "LICENSE" }
   s.author           = { "Times Internet Limited" => "rahul.goyal1@timesinternet.in" }
-  s.source           = { :http => 'https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip' }
+  s.source           = { :git => "https://bitbucket.org/times_internet/coke-ios.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Coke/Classes/**/*', 'Coke.framework/Headers/*.h'
   s.public_header_files = 'Coke/Classes/**/Public/*.h'
-  s.vendored_frameworks = 'Coke.framework'
+
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
 
 end
