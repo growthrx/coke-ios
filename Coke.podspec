@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Sources/*.h'
+  s.source_files = 'Headers/*.h'
 #s.ios.vendored_libraries = 'Libraries/libGoogleAnalytics.a'
 
     #s.public_header_files = 'Coke/Classes/**/Public/*.h'
