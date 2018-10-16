@@ -18,9 +18,10 @@ Pod::Spec.new do |s|
   s.source           = { :http => 'https://docs.growthrx.in/integration/ios-sdk/growthrx_ios_sdk.2.1.8.zip' }
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Coke.framework/Headers/*.h'
+
+  s.source_files = 'Coke/Classes/**/*', 'Coke.framework/Headers/*.h'
+  s.public_header_files = 'Coke/Classes/**/Public/*.h'
   s.vendored_frameworks = 'Coke.framework'
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
-
 
 end
