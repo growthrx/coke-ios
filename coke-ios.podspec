@@ -13,17 +13,13 @@ Pod::Spec.new do |s|
   s.description      = 'coke is analytics tool that record the specefic activty and data. This is internal to TIL'
 
   s.homepage         = 'http://www.timesinternet.in'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Times Internet Limited', :file => 'LICENSE' }
   s.author           = { 'Times Internet Limited' => 'rahul.goyal1@timesinternet.in' }
   s.source           = { :http => 'https://github.com/growthrx/coke-ios/releases/download/0.0.1/Coke.zip'}
   
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Coke/Coke.framework/Headers/*.h'
-  #s.module_name = 'Coke.framework/Modules/*'
-
+  s.source_files = 'Coke.framework/**/*'
   s.ios.vendored_frameworks = 'Coke.framework'
   s.frameworks = 'UIKit','Foundation','CoreTelephony','AdSupport', 'SystemConfiguration'
 
